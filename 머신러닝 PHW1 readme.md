@@ -2,7 +2,7 @@
 
 **Result Example**
 
-![](RackMultipart20221013-1-tyjjnt_html_ca41f9a20b7ea3d6.png)
+![](Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
 
 **Document**
 
