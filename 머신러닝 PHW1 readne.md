@@ -2,9 +2,7 @@
 
 **Result Example**
 
-![텍스트이(가) 표시된 사진
-
-자동 생성된 설명](Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
+(Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
 
 **Document**
 
