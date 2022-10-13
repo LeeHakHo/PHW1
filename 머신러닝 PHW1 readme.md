@@ -1,18 +1,14 @@
-﻿**Various algorithm test automation functions for one dataset**
+**Various algorithm test automation functions for one dataset**
 
 **Result Example**
 
-![텍스트이(가) 표시된 사진
-
-자동 생성된 설명](Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
+![](RackMultipart20221013-1-tyjjnt_html_ca41f9a20b7ea3d6.png)
 
 **Document**
 
-Class getBest5(dataset= ‘dataset path’)
+Class getBest5(dataset= 'dataset path')
 
 When a user inserts a dataset, the dataset is preprocessed and the best combination of hyper parameters, scaler, and model is found and Top5 is output. There are 3 scalers [MinMaxScaler(), StandardScaler(), RobustScaler()] and 4 algorithms [Logistic Regression(), Entropy Classifier(), Gini Classifier(), SVC()] and many hyper parameters for each algorithm Included.
-
-
 
 LogisticRegression
 
@@ -24,7 +20,7 @@ lver=['newton-cg', 'lbfgs', 'liblinear']
 
 DecisionTreeClassifier
 
-`	`criterion = ['entropy']
+criterion = ['entropy']
 
 max\_depth = [2,4,6,8,10,12]
 
@@ -36,7 +32,7 @@ max\_features = ['auto', 'sqrt','log2']
 
 Gini Classifier
 
-`	`criterion = ['gini']
+criterion = ['gini']
 
 max\_depth = [2,4,6,8,10,12]
 
@@ -48,7 +44,7 @@ max\_features = ['auto', 'sqrt','log2']
 
 SVC
 
-`	`C=[0.001, 0.01, 0.1, 1, 10, 25, 50, 100]
+C=[0.001, 0.01, 0.1, 1, 10, 25, 50, 100]
 
 kernel=['linear', 'sigmoid', 'rbf', 'poly']
 
@@ -56,27 +52,25 @@ gamma=[0.001, 0.01, 0.1, 1, 10, 25, 50, 100]
 
 **Examples**
 
-`	`dataset = 'breastCancer.csv'
+dataset = 'breastCancer.csv'
 
 print(getBest5(dataset))
 
 **Methods**
 
-`	`preprocessing(dataset = ‘dataset path’):
+preprocessing(dataset = 'dataset path'):
 
-`	`parameter:: dataset –
+parameter:: dataset –
 
 The path of the dataset you want to preprocess
 
-`	`return:: X\_train, X\_test, y\_train, y\_test –
+return:: X\_train, X\_test, y\_train, y\_test –
 
 Preprocessing the dataset and dividing it into a train set and a test set
 
-`	`modeling(X\_train, X\_test, y\_train, y\_test):
+modeling(X\_train, X\_test, y\_train, y\_test):
 
-`	`parameter:: X\_train, X\_test, y\_train, y\_test-
-
-
+parameter:: X\_train, X\_test, y\_train, y\_test-
 
 The train set and test set of the dataset you want to experiment with
 
