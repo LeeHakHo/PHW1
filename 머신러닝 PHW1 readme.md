@@ -60,20 +60,20 @@ print(getBest5(dataset))
 
 preprocessing(dataset = 'dataset path'):
 
-parameter:: dataset –
+parameter:: dataset 
 
 The path of the dataset you want to preprocess
 
-return:: X\_train, X\_test, y\_train, y\_test –
+return:: X\_train, X\_test, y\_train, y\_test 
 
 Preprocessing the dataset and dividing it into a train set and a test set
 
 modeling(X\_train, X\_test, y\_train, y\_test):
 
-parameter:: X\_train, X\_test, y\_train, y\_test-
+parameter:: X\_train, X\_test, y\_train, y\_test
 
 The train set and test set of the dataset you want to experiment with
 
-Return:: final\_top5.values.tolist() -
+Return:: final\_top5.values.tolist() 
 
 Combination of scaler, algorithm, and hyper parameters of the final Top 5 composed of a list
