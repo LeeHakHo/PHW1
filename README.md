@@ -5,7 +5,7 @@
 
 **Result Example**
 
-![](Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
+![](Screenshots/Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
 
 **Document**
 
