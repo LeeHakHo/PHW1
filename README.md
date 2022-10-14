@@ -5,7 +5,7 @@
 
 **Result Example**
 
-![](Screenshots/Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
+![](https://github.com/Machine-Learing/PHW1/blob/main/Screenshots/Aspose.Words.fc03db81-3384-430a-b521-e1dbe81e9210.001.png)
 
 **Document**
 
